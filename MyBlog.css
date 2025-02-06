@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+   
+        background-color: #dcffff; /* צבע תכלת ממש בהיר */
+        height: 100vh; /* לוודא שהרקע יתפוס את כל גובה המסך */
+        margin: 0;
+
+    
+}
+
+header {
+    background: linear-gradient(to bottom, #87CEFA, #00008B);
+}
+   
+
+
+header img {
+    border: 5px solid white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+header p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.social-links a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #d4d4d4;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 1px solid #160057;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: #0e0040;
+}
